@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct  4 19:20:57 2023
+# Process ID: 9532
+# Current directory: D:/CPU_design/lab4/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3548 D:\CPU_design\lab4\lab_4\lab_4.xpr
+# Log file: D:/CPU_design/lab4/lab_4/vivado.log
+# Journal file: D:/CPU_design/lab4/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/lab4/lab_4/lab_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:41 . Memory (MB): peak = 1010.648 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 22:28:14 2023...

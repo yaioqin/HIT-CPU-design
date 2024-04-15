@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Sep 14 23:33:28 2023
+# Process ID: 1940
+# Current directory: D:/CPU_design/lab_3_4/lab_3_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9872 D:\CPU_design\lab_3_4\lab_3_4\lab_3_4.xpr
+# Log file: D:/CPU_design/lab_3_4/lab_3_4/vivado.log
+# Journal file: D:/CPU_design/lab_3_4/lab_3_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/lab_3_4/lab_3_4/lab_3_4.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets sim_cpu ]
+open_wave_config D:/CPU_design/lab_3_4/lab_3_4/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+run all
+close_sim
+current_fileset -simset [ get_filesets sim_3 ]
+launch_simulation -simset [get_filesets sim_3 ]
+source regfile_tb.tcl
+close_sim
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset [get_filesets sim_2 ]
+source tb_top.tcl
+close_sim

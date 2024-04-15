@@ -1,0 +1,10 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+==============================================================
+Test begin!
+Test end!
+CPU Total:                  1456 insts use       1771 cycles, avg CPI = 1.216346
+Branch Predict Total:        104 failures in        600 jump insts, failure rate=17.333333 %
+==============================================================
+    ----PASS!!!
+$finish called at time : 19720 ns : File "D:/CPU_design/lab/lab2/branch_predict_test/branch_predict_test.srcs/sources_1/new/test_top.v" Line 178

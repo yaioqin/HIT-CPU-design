@@ -1,0 +1,22 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/CPU_design/lab2/add/add.srcs/sources_1/new/add.v,1693293368,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/add_4.v,,add,,,,,,,,
+D:/CPU_design/lab2/alu/alu.sim/sim_2/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sim_2/new/alu_tb.v,1693295468,verilog,,,,ALU_td,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/AND.v,1693231488,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/CLA.v,,AND,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/CLA.v,1693209925,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/CLA_16.v,,CLA,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/CLA_16.v,1693210056,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/NOT.v,,CLA_16,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/NOT.v,1693231383,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/OR.v,,NOT,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/OR.v,1693231979,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/XNOR.v,,OR,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/XNOR.v,1693231860,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/XOR.v,,XNOR,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/XOR.v,1693289290,verilog,,D:/CPU_design/lab2/add/add.srcs/sources_1/new/add.v,,XOR,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/add_4.v,1693209981,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/add_c.v,,adder_4,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/add_c.v,1693295666,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/adder.v,,add_c,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/adder.v,1693209058,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/adder_32.v,,adder,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/adder_32.v,1693396347,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/alu.v,,adder32,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/alu.v,1693397312,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/and_not.v,,alu,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/and_not.v,1693232077,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/sub1.v,,and_not,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/sub1.v,1693296130,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/sub1_c.v,,sub,,,,,,,,
+D:/CPU_design/lab2/alu/alu.srcs/sources_1/new/sub1_c.v,1693296965,verilog,,D:/CPU_design/lab2/alu/alu.srcs/sim_2/new/alu_tb.v,,sub_c,,,,,,,,

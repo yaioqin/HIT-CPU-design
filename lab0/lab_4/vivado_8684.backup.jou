@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep 26 18:22:25 2023
+# Process ID: 8684
+# Current directory: D:/CPU_design/lab4/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7428 D:\CPU_design\lab4\lab_4\lab_4.xpr
+# Log file: D:/CPU_design/lab4/lab_4/vivado.log
+# Journal file: D:/CPU_design/lab4/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/lab4/lab_4/lab_4.xpr
+r
+update_compile_order -fileset sources_1

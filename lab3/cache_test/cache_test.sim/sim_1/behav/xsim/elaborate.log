@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 271ee54be32a47ad8f73fd69d5e2875f --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cache_tb_behav xil_defaultlib.cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 's_axi_awvalid' [D:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sim_1/new/cache_tb.v:138]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 's_axi_wlast' [D:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sim_1/new/cache_tb.v:143]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 's_axi_wvalid' [D:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sim_1/new/cache_tb.v:144]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 's_axi_bready' [D:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sim_1/new/cache_tb.v:150]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

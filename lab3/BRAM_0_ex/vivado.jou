@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov  2 18:18:05 2023
+# Process ID: 19064
+# Current directory: d:/CPU_design/lab/lab3/BRAM_0_ex
+# Command line: vivado.exe -notrace -source d:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sources_1/ip/BRAM_0/BRAM_0_ex.tcl
+# Log file: d:/CPU_design/lab/lab3/BRAM_0_ex/vivado.log
+# Journal file: d:/CPU_design/lab/lab3/BRAM_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/CPU_design/lab/lab3/cache_test/cache_test.srcs/sources_1/ip/BRAM_0/BRAM_0_ex.tcl -notrace

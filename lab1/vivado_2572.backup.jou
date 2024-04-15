@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 14 18:19:12 2023
+# Process ID: 2572
+# Current directory: D:/CPU_design/labcopy/lab/lab_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26008 D:\CPU_design\labcopy\lab\lab_1\lab_1.xpr
+# Log file: D:/CPU_design/labcopy/lab/lab_1/vivado.log
+# Journal file: D:/CPU_design/labcopy/lab/lab_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/labcopy/lab/lab_1/lab_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+run 10 us
+update_compile_order -fileset sources_1
+relaunch_sim
+run 10 us
+update_compile_order -fileset sources_1
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+close_sim

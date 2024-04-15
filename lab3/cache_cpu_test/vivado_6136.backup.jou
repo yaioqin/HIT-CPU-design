@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 10 14:48:34 2023
+# Process ID: 6136
+# Current directory: D:/CPU_design/lab/lab3/cache_cpu_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24400 D:\CPU_design\lab\lab3\cache_cpu_test\cache_cpu_test.xpr
+# Log file: D:/CPU_design/lab/lab3/cache_cpu_test/vivado.log
+# Journal file: D:/CPU_design/lab/lab3/cache_cpu_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cache_cpu_tb.tcl
+run all
+close_sim

@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 13 18:58:16 2023
+# Process ID: 15640
+# Current directory: D:/CPU_design/lab3/RAM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9288 D:\CPU_design\lab3\RAM\RAM.xpr
+# Log file: D:/CPU_design/lab3/RAM/vivado.log
+# Journal file: D:/CPU_design/lab3/RAM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CPU_design/lab3/RAM/RAM.xpr
+open_project D:/CPU_design/lab3/RAM/RAM.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets sim_cpu ]
+open_wave_config D:/CPU_design/lab3/RAM/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation -simset [get_filesets sim_cpu ]
+open_wave_config D:/CPU_design/lab3/RAM/cpu_tb_behav.wcfg
+source cpu_tb.tcl
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+restart
+run all
+close_sim

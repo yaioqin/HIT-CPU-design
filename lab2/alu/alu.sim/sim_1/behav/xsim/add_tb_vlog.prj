@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../alu.srcs/sources_1/new/CLA.v" \
+"../../../../alu.srcs/sources_1/new/CLA_16.v" \
+"../../../../alu.srcs/sources_1/new/add_4.v" \
+"../../../../alu.srcs/sources_1/new/adder.v" \
+"../../../../alu.srcs/sources_1/new/adder_32.v" \
+"../../../../../add/add.srcs/sim_1/new/add_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

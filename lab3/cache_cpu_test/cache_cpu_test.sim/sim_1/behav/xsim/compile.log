@@ -1,0 +1,31 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/ip/axi/sim/axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/ip/BRAM/sim/BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/imports/cache/cpu_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_core
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/getPCaddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getPCaddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/icache_tagv_table.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icache_tagv_table
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_cpu_tb
+INFO: [VRFC 10-2458] undeclared symbol arlen, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:127]
+INFO: [VRFC 10-2458] undeclared symbol arsize, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:128]
+INFO: [VRFC 10-2458] undeclared symbol arburst, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:129]
+INFO: [VRFC 10-2458] undeclared symbol awid, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:130]
+INFO: [VRFC 10-2458] undeclared symbol awlen, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:131]
+INFO: [VRFC 10-2458] undeclared symbol awburst, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:132]
+INFO: [VRFC 10-2458] undeclared symbol awsize, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:133]
+INFO: [VRFC 10-2458] undeclared symbol awaddr, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:134]
+INFO: [VRFC 10-2458] undeclared symbol awvalid, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:135]
+INFO: [VRFC 10-2458] undeclared symbol wdata, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:136]
+INFO: [VRFC 10-2458] undeclared symbol wvalid, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:137]
+INFO: [VRFC 10-2458] undeclared symbol wlast, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:138]
+INFO: [VRFC 10-2458] undeclared symbol bready, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:139]
+INFO: [VRFC 10-2458] undeclared symbol leds, assumed default net type wire [D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v:189]

@@ -1,0 +1,26 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Block Memory Generator module cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module cache_cpu_tb.u_cpu.u_cache.BRAM_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module cache_cpu_tb.u_axi.inst.\axi_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_4 collision detected at time: 2075000, Instance: cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_4 collision detected at time: 2305000, Instance: cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9, B  read address: 9
+Test end!
+CPU Total:         1456 insts use       1949 cycles, avg CPI = 1.338599
+Cache Total:       1784 CPU requests,          3 cache misses, miss rate = 0.168161 %
+    ----PASS!!!
+$finish called at time : 21500 ns : File "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v" Line 228
+Block Memory Generator module cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module cache_cpu_tb.u_cpu.u_cache.BRAM_1.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module cache_cpu_tb.u_axi.inst.\axi_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_4 collision detected at time: 2075000, Instance: cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_4 collision detected at time: 2305000, Instance: cache_cpu_tb.u_cpu.u_cache.BRAM_0.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst , A write address: 9, B  read address: 9
+Test end!
+CPU Total:         1456 insts use       1949 cycles, avg CPI = 1.338599
+Cache Total:       1784 CPU requests,          3 cache misses, miss rate = 0.168161 %
+    ----PASS!!!
+$finish called at time : 21500 ns : File "D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v" Line 228

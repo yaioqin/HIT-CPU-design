@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v,1699105529,verilog,,,,cache_cpu_tb,,,,,,,,
+,,,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cpu_top.v,,cpu_core;glbl,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/ip/BRAM/sim/BRAM.v,1699104682,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cache.v,,BRAM,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/ip/axi/sim/axi.v,1693641833,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/ip/BRAM/sim/BRAM.v,,axi,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cache.v,1699757410,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/imports/cache/cpu_core.v,,cache,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/cpu_top.v,1693641199,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/getPCaddr.v,,cpu_top,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/getPCaddr.v,1699146750,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/icache_tagv_table.v,,getPCaddr,,,,,,,,
+D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sources_1/new/icache_tagv_table.v,1699104615,verilog,,D:/CPU_design/lab/lab3/cache_cpu_test/cache_cpu_test.srcs/sim_1/new/cache_cpu_tb.v,,icache_tagv_table,,,,,,,,

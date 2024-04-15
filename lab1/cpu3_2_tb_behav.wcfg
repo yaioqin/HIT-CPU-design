@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2491666fs"></ZoomStartTime>
+      <ZoomEndTime time="2561667fs"></ZoomEndTime>
+      <Cursor1Time time="2550000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="64" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/debug_wb_pc" type="array">
+      <obj_property name="ElementShortName">debug_wb_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/debug_wb_rf_wen" type="logic">
+      <obj_property name="ElementShortName">debug_wb_rf_wen</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/debug_wb_rf_addr" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/debug_wb_rf_wdata" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_EX_MEM/EX_MEM_ALUoutput" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/Card" type="array">
+      <obj_property name="ElementShortName">Card[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Card[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/ID_EX_A" type="array">
+      <obj_property name="ElementShortName">ID_EX_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/ID_EX_B" type="array">
+      <obj_property name="ElementShortName">ID_EX_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/MEM_WB_ALUoutput" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_MEM_ALUoutput" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/MEM_WB_LMD" type="array">
+      <obj_property name="ElementShortName">MEM_WB_LMD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_LMD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/fdc/selectA" type="array">
+      <obj_property name="ElementShortName">selectA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selectA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/fdc/selectB" type="array">
+      <obj_property name="ElementShortName">selectB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selectB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/stallDetect/ID_EX_IR" type="array">
+      <obj_property name="ElementShortName">ID_EX_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/stallDetect/IF_ID_IR" type="array">
+      <obj_property name="ElementShortName">IF_ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/stallDetect/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF/IF_IR" type="array">
+      <obj_property name="ElementShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/IF_ID_IR" type="array">
+      <obj_property name="ElementShortName">IF_ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/IF_ID_PC" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/ID_EX/ID_EX_PC" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_EX_MEM/EX_MEM_PC" type="array">
+      <obj_property name="ElementShortName">EX_MEM_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_MEM_WB/MEM_WB_PC" type="array">
+      <obj_property name="ElementShortName">MEM_WB_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/IF_ID/IF_ID_IR" type="array">
+      <obj_property name="ElementShortName">IF_ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/ID_EX/ID_EX_IR" type="array">
+      <obj_property name="ElementShortName">ID_EX_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_EX_MEM/EX_MEM_IR" type="array">
+      <obj_property name="ElementShortName">EX_MEM_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_MEM_WB/MEM_WB_IR" type="array">
+      <obj_property name="ElementShortName">MEM_WB_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_MEM_ALUoutput" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/MEM_WB_ALUoutput" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/MEM_WB_LMD" type="array">
+      <obj_property name="ElementShortName">MEM_WB_LMD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_LMD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/ID_EX_B" type="array">
+      <obj_property name="ElementShortName">ID_EX_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/selectA" type="array">
+      <obj_property name="ElementShortName">selectA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selectA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/selectB" type="array">
+      <obj_property name="ElementShortName">selectB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selectB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/raddr1" type="array">
+      <obj_property name="ElementShortName">raddr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/rdata1" type="array">
+      <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/raddr2" type="array">
+      <obj_property name="ElementShortName">raddr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/rdata2" type="array">
+      <obj_property name="ElementShortName">rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_A" type="array">
+      <obj_property name="ElementShortName">EX_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_B" type="array">
+      <obj_property name="ElementShortName">EX_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/ID_EX_A" type="array">
+      <obj_property name="ElementShortName">ID_EX_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/ID_EX_B" type="array">
+      <obj_property name="ElementShortName">ID_EX_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_PC" type="array">
+      <obj_property name="ElementShortName">EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_IR" type="array">
+      <obj_property name="ElementShortName">EX_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/cpu_alu/sub_result" type="array">
+      <obj_property name="ElementShortName">sub_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_ALUoutput" type="array">
+      <obj_property name="ElementShortName">EX_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/EX_MEM_ALUoutput" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_dram/ram_wen" type="logic">
+      <obj_property name="ElementShortName">ram_wen</obj_property>
+      <obj_property name="ObjectShortName">ram_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_dram/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/EX/MEM_WB_LMD" type="array">
+      <obj_property name="ElementShortName">MEM_WB_LMD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_LMD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_MEM_WB/MEM_WB_PC" type="array">
+      <obj_property name="ElementShortName">MEM_WB_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/cpu_regfile/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_MEM_WB/MEM_WB_ALUoutput" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/U_cpu_top/U_cpu/base_MEM_WB/MEM_WB_IR" type="array">
+      <obj_property name="ElementShortName">MEM_WB_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_IR[31:0]</obj_property>
+   </wvobject>
+</wave_config>

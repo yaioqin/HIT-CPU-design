@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_4.srcs/sources_1/new/AND.v" \
+"../../../../lab_4.srcs/sources_1/new/CLA.v" \
+"../../../../lab_4.srcs/sources_1/new/CLA_16.v" \
+"../../../../lab_4.srcs/sources_1/new/ConJUMP.v" \
+"../../../../lab_4.srcs/sources_1/new/ConUnit.v" \
+"../../../../lab_4.srcs/sources_1/new/DRAM_top.v" \
+"../../../../lab_4.srcs/sources_1/new/IRAM_top.v" \
+"../../../../lab_4.srcs/sources_1/new/MUX2.v" \
+"../../../../lab_4.srcs/sources_1/new/MUX2X5.v" \
+"../../../../lab_4.srcs/sources_1/new/MUX4X32.v" \
+"../../../../lab_4.srcs/sources_1/new/OR.v" \
+"../../../../lab_4.srcs/sources_1/new/PC_ALU.v" \
+"../../../../lab_4.srcs/sources_1/new/PC_updater.v" \
+"../../../../lab_4.srcs/sources_1/new/XOR.v" \
+"../../../../../../lab2/add/add.srcs/sources_1/new/add.v" \
+"../../../../lab_4.srcs/sources_1/new/add_4.v" \
+"../../../../lab_4.srcs/sources_1/new/adder.v" \
+"../../../../lab_4.srcs/sources_1/new/adder_32.v" \
+"../../../../lab_4.srcs/sources_1/new/cpu.v" \
+"../../../../lab_4.srcs/sources_1/new/cpu_top.v" \
+"../../../../lab_4.srcs/sources_1/new/entend5to32.v" \
+"../../../../lab_4.srcs/sources_1/new/extend16to32.v" \
+"../../../../lab_4.srcs/sources_1/new/noConJUMP.v" \
+"../../../../lab_4.srcs/sources_1/new/pcadder.v" \
+"../../../../lab_4.srcs/sources_1/new/regfile.v" \
+"../../../../lab_4.srcs/sources_1/new/sub1.v" \
+"../../../../lab_4.srcs/sim_1/new/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
